@@ -1,0 +1,7 @@
+Como administrador quiero poder llevar un registro de las empresas que prestan servicios a nuestras mantenciones. 
+Con el propósito de manejar adecuadamente la información ya que no tenemos un control de los datos, mas que Excel y papel, a veces perdemos esa información o simplemente no se registra. 
+Además me gustaría poder verlas como una tabla, modificar su información y eliminar algunas empresas.
+
+RF1: El usuario puede ingresar los datos de la empresa rellenando con la información requerida
+RF2: El usuario puede modificar los datos ingresados de la empresa, editando todos los campos de información.
+RF3: El usuario puede eliminar una empresa registrada y todos sus datos almacenados. 
