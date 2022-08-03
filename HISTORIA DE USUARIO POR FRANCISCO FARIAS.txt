@@ -1,7 +1,24 @@
-Como administrador quiero poder llevar un registro de las empresas que prestan servicios a nuestras mantenciones. 
-Con el propósito de manejar adecuadamente la información ya que no tenemos un control de los datos, mas que Excel y papel, a veces perdemos esa información o simplemente no se registra. 
+Como administrador quiero poder llevar un registro de las empresas que prestan servicios a nuestras mantenciones.
+Con el propósito de manejar adecuadamente la información ya que no tenemos un control de los datos, mas que Excel y papel, a veces perdemos esa información o simplemente no se registra.
 Además me gustaría poder verlas como una tabla, modificar su información y eliminar algunas empresas.
 
 RF1: El usuario puede ingresar los datos de la empresa rellenando con la información requerida
 RF2: El usuario puede modificar los datos ingresados de la empresa, editando todos los campos de información.
-RF3: El usuario puede eliminar una empresa registrada y todos sus datos almacenados. 
+RF3: El usuario puede eliminar una empresa registrada y todos sus datos almacenados.
+
+Como administrador quiero poder llevar un registro de las encargados que se dedican a llevar el registro de las mantenciones
+Con el propósito de manejar de saber quien es que almaceno o archivo una mantención ya que muchas veces se pasan registros de mano en mano o simplemente no queda registro de quien lo hizo ( o no .
+
+RF1: El usuario puede ingresar los datos del encargado rellenando con la información requerida
+RF2: El usuario puede modificar los datos ingresados, editando todos los campos de información.
+RF3: El usuario puede eliminar un encargado y todos sus datos almacenados.
+
+Como encargado de mantenciones quiero poder registrar las mantenciones del condominio en una especie de calendario
+
+con el propósito de ver de manera ordenada y rápida las mantenciones que haremos, ya que nosotros perdemos mucho
+tiempo confeccionando calendarios y en cuadernos.
+
+RF1: El usuario puede ingresar los datos de la mantención rellenando con la información requerida y seleccionando una fecha del calendario.
+RF2: El usuario puede modificar los datos ingresados, editando todos los campos de información, pudiendo elegir colores para cada mantención.
+RF3: El usuario puede eliminar una y todos sus datos almacenados.
+
