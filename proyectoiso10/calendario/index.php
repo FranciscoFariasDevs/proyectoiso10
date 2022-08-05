@@ -20,7 +20,7 @@
 <?php
 include('config.php');
 
-  $SqlEventos   = ("SELECT * FROM Mantencion");
+  $SqlEventos   = ("SELECT * FROM mantencion");
   $resulEventos = mysqli_query($con, $SqlEventos);
 
 ?>
@@ -114,8 +114,7 @@ $(document).ready(function() {
     events: [
       <?php
        while($dataEvento = mysqli_fetch_array($resulEventos)){ ?>
-          {
-          _id: '<?php echo $dataEvento['cod_man']; ?>',
+          {           _id: '<?php echo $dataEvento['cod_man']; ?>',
           title: '<?php echo $dataEvento['tipo_man']; ?>',
           estado: '<?php echo $dataEvento['estado']; ?>',
           obs: '<?php echo $dataEvento['observacion']; ?>',
