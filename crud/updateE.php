@@ -15,6 +15,6 @@ $sql="UPDATE encargado SET rut_e='$rut_e',nombre_E='$nombre_E',apellido_e='$apel
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /proyectoiso10/proyectoiso10/tablaEmpresas/tablaencargados.php");
+        Header("Location:/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/tablaEmpresas/tablaencargados.php");
     }
     ?>

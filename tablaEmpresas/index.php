@@ -66,8 +66,10 @@
                         <th><?php  echo $row['telefono_Em']?></th>
                         <th><?php  echo $row['giro']?></th>
                         <th><?php  echo $row['direccion']?></th> 
-                        <th><a href="/proyectoiso10/proyectoiso10/crud/actualizar.php?id=<?php echo $row['rut_empresa'] ?>" class="btn btn-info">Editar</a></th>
-                        <th><a href="/proyectoiso10/proyectoiso10/crud/delete.php?id=<?php echo $row['rut_empresa'] ?>" class="btn btn-danger">Eliminar</a></th>                                        
+                        
+                        <th><a  href="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/crud/actualizar.php?id=<?php echo $row['rut_empresa'] ?>" class="btn btn-info">Editar</a> </th>
+                        <th><a  onclick="alertita2(1)" href="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/crud/delete.php?id=<?php echo $row['rut_empresa'] ?>" class="btn btn-danger">Eliminar</a> </th>    
+                                      
                     </tr>
                 <?php 
                         }
@@ -92,8 +94,10 @@
 <script type="text/javascript" src="../js/tabla.js"></script>
 
 
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    
 </body>
 
+<script src="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/js/alertas.js"></script>

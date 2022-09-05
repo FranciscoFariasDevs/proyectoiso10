@@ -35,7 +35,7 @@
             <section class="py-3">
                 <div class="contenedor">            
                         <div class="row">
-                                <form action="/crud/insertarE.php" method="POST" class="formulario">
+                                <form action="/proyectoiso10/proyectoiso10/crud/insertarE.php" method="POST" class="formulario">
 
                                     <input type="text" class="form-control mb-3" name="rut_e" placeholder="Rut">
                                     <input type="text" class="form-control mb-3" name="nombre_e" placeholder="Nombre">
@@ -65,4 +65,4 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
 </body>
 
-</html>
+</html><script src="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/js/alertas.js"></script>

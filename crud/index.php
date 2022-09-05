@@ -35,15 +35,15 @@
             <section class="py-3">
                 <div class="contenedor">            
                         <div class="row">
-                                <form action="insertar.php" method="POST" class="formulario">
+                                <form action="insertar.php" method="POST" class="formulario" id=tablaenc">
 
-                                    <input type="text" class="form-control mb-3" name="rut_empresa" placeholder="Rut " id="rutt">
+                                    <input type="text" class="form-control mb-3" name="rut_empresa" placeholder="Rut " id="rut">
                                     <input type="text" class="form-control mb-3" name="nombre_Em" placeholder="Nombre  ">
                                     <input type="text" class="form-control mb-3" name="telefono_Em" placeholder="Telefono">
                                     <input type="text" class="form-control mb-3" name="giro" placeholder="Giro">
                                     <input type="text" class="form-control mb-3" name="direccion" placeholder="Direccion">
 
-                                    <input type="submit" class="btn btn-primary">
+                                    <input type="submit" class="btn btn-primary" onclick="alertita(1)">
                                 </form>
                             </div>
                 </div>
@@ -63,6 +63,30 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js" integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
-</body>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>}
+        <script src="/Francisco-Farias-ProyectoIso1/proyectoiso10/js/alertas.js"></script>
+        
+      </body>
 
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+    
+        <title>Editar Datos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <title>Actualizar</title>
+        
+        
+    </head>
+    <body>
+    <div class="alert alert-success" role="alert">
+  This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+                    
+                </div>
+    </body>
+</html>
+<script src="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/js/alertas.js"></script>

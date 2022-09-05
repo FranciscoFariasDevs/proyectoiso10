@@ -33,9 +33,10 @@ $row=mysqli_fetch_array($query);
                                 <input type="text" class="form-control mb-3" name="apellido_e" placeholder="Apellido" value="<?php echo $row['apellido_e']  ?>">
                                 <input type="text" class="form-control mb-3" name="cargo" placeholder="Cargo" value="<?php echo $row['cargo']  ?>">
                                 <input type="text" class="form-control mb-3" name="password_enc" placeholder="Contraseña" value="<?php echo $row['password_enc']  ?>">
-                            <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
+                            <input type="submit" class="btn btn-primary btn-block" value="Actualizar" onclick="alertita3(1)">
                     </form>
                     
                 </div>
     </body>
 </html>
+<script src="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/js/alertas.js"></script>

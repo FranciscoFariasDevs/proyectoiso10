@@ -1,8 +1,7 @@
 <?php 
     include("../crud/conexion.php");
-     include("../crud/er.php");
   
-    er();
+
     $con=conectar();
 
     $sql="SELECT *  FROM encargado";
@@ -57,7 +56,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                       <?php
+                        <?php
                         while($row=mysqli_fetch_array($query)){
                 ?>
                     <tr>
@@ -66,8 +65,8 @@
                         <th><?php  echo $row['apellido_e']?></th>
                         <th><?php  echo $row['cargo']?></th>
                       
-                        <th><a href="/proyectoiso10/proyectoiso10/crud/actualizarE.php?id=<?php echo $row['rut_e'] ?>" class="btn btn-info">Editar</a></th>
-                        <th><a href="/proyectoiso10/proyectoiso10/crud/deleteE.php?id=<?php echo $row['rut_e'] ?>" class="btn btn-danger">Eliminar</a></th>                                        
+                        <th><a href="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/crud/actualizarE.php? echo $row['rut_e'] ?>" class="btn btn-info">Editar</a></th>
+                        <th><a onclick="alertita(1)" href="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/crud/DeleteE.php?id=<?php echo $row['rut_e'] ?>" class="btn btn-danger">Eliminar</a></th>                                        
                     </tr>
                 <?php 
                         }
@@ -89,7 +88,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 
-<script type="text/javascript" src="../js/tabla.js"></script>
+<script type="text/javascript" src="../js/tablaenc.js"></script>
 
 
     <!-- Optional JavaScript -->

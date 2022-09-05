@@ -93,7 +93,7 @@ $query= mysqli_query($con,$sql);
 
 
 if($query){
-    Header("Location:tablaEmpresas/tablaencargados.php");
+    Header("Location: /Francisco-Farias-ProyectoIso1/proyectoiso10/tablaEmpresas/tablaencargados.php");
     
 }else {
 }

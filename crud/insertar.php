@@ -1,14 +1,14 @@
 <?php
 include("conexion.php");
 include("er.php");
-er();
+//er();
 $con=conectar();
 
 
   //$aErrores = array();
   $aMensajes = array();
   $patron_texto = "/^[a-zA-ZáéíóúÁÉÍÓÚäëïöüÄËÖÏÜàèìòùÀÈÌÒÙ\s]+$/";
- /*if( !empty($_POST) )
+ if( !empty($_POST) )
  {
      echo "FORMULARIO RECIBIDO:<br/>";
      echo "====================<p/>";
@@ -72,11 +72,11 @@ $con=conectar();
      {
          
          for( $contador=0; $contador < count($aMensajes); $contador++ )
-             echo $aMensajes[$contador]."<br/>";/*
-     }*/
+             echo $aMensajes[$contador]."<br/>";
+     }
  
 
- echo "<p><a href='/tablaEmpresas/index.php'>Haz clic aquí para volver al formulario</a></p>";
+ echo "<p><a href='/Francisco-Farias-ProyectoIso1/proyectoiso10/tablaEmpresas/index.php'>Haz clic aquí para volver al formulario</a></p>";
 
 
 
@@ -95,7 +95,7 @@ $query= mysqli_query($con,$sql);
 
 
 if($query){
-    Header("Location:tablaEmpresas/index.php");
+    Header("Location:/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/tablaEmpresas/index.php");
     
 }else {
 }

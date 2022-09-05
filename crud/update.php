@@ -15,6 +15,6 @@ $sql="UPDATE empresaM   SET  nombre_Em='$nombre_Em',telefono_Em='$telefono_Em',g
 $query=mysqli_query($con,$sql);
 
     if($query){
-        Header("Location: /proyectoiso10/proyectoiso10/tablaEmpresas/index.php");
+        Header("Location:/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/tablaEmpresas/index.php");
     }
 ?>

@@ -33,9 +33,11 @@ $row=mysqli_fetch_array($query);
                                 <input type="text" class="form-control mb-3" name="telefono_Em" placeholder="Telefono" value="<?php echo $row['telefono_Em']  ?>">
                                 <input type="text" class="form-control mb-3" name="giro" placeholder="Giro" value="<?php echo $row['giro']  ?>">
                                 <input type="text" class="form-control mb-3" name="direccion" placeholder="Direccion" value="<?php echo $row['direccion']  ?>">
-                            <input type="submit" class="btn btn-primary btn-block" value="Actualizar">
+                            <input type="submit" class="btn btn-primary btn-block" value="Actualizar" onclick="alertita3(1)">
                     </form>
                     
                 </div>
     </body>
 </html>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="/proyectoiso10/Francisco-Farias-ProyectoIso1/proyectoiso10/js/alertas.js"></script>
