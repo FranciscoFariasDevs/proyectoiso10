@@ -23,8 +23,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-9 col-md-8">
-                                <h1 class="font-weight-bold mb-0">Bienvenido @User </h1>
-                                <p class="lead text-muted"></p>
+                                <h1 class="font-weight-bold mb-0">      ¡Bienvenido a EdifRed! </h1>
+                                <p class="lead text-muted">Has ingresado como  "Administrador"</p>
                             </div>
                             <div class="col-lg-3 col-md-4 d-flex">
                                
@@ -35,48 +35,41 @@
 
                 <section style="margin-top: 10px;">
                 <div class="container">
-                    <div class="card rounded-0">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-lg-4 col-md-6 d-flex stat my-3">
-                                    <div class="mx-auto">
-                                        <h6 class="text-muted">Mantenciones realizadas</h6>
-                                        <h3 class="font-weight-bold">0</h3>
-                                        <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i> 0%</h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 d-flex stat my-3">
-                                    <div class="mx-auto">
-                                        <h6 class="text-muted">Mantenciones activas</h6>
-                                        <h3 class="font-weight-bold">0</h3>
-                                        <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i> 0%</h6>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4 col-md-6 d-flex my-3 ">
-                                    <div class="mx-auto">
-                                        <h6 class="text-muted">Mantenciones en espera</h6>
-                                        <h3 class="font-weight-bold">0</h3>
-                                        <h6 class="text-success"><i class="icon ion-md-arrow-dropup-circle"></i> 0%</h6>
-                                    </div>
-                                </div>
-                                
-                            </div>
-                        </div>
+                <div class="container">
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="../fotos/london.jpg" class="card-img-top" alt="A Street in Europe">
+                    <div class="card-body">
+                        <h5 class="card-title">Edificios Bellavista</h5>
+                        <p class="card-text">Edificios  Bellavista, departamentos ideales para vacacionar junto a tu familia a pasos de la playa!
+                            .</p>
                     </div>
                 </div>
-              </section>
-
-              <section>
-                  
-                     
-                          
-                     
-                  
-              </section>
-
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="../fotos/Arriba.jpg" class="card-img-top" alt="London">
+                    <div class="card-body">
+                        <h5 class="card-title">Playa</h5>
+                        <p class="card-text">Disfruta del oceano y del cálido sol, en las hermosas de tomé. ¡Imagina despertar con el aroma del mar y el sonido de las gaviotas!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="../fotos/noche.jpg" class="card-img-top" alt="New York">
+                    <div class="card-body">
+                        <h5 class="card-title">Bloques</h5>
+                        <p class="card-text">Nuestros edificios cuentan con 3 bloques, 9 pisos . Habitaciones con 3 piezas.
+                            Servicio a la habitacion. Amplio estacionamiento con seguridad 24/6. 
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
 
-        </div>
     </div>
 
     <!-- Optional JavaScript -->
